@@ -6,16 +6,29 @@ public class Main {
     public static void main(String[] args) {
 
 
-        Rectangle rectangle = new Rectangle(7, 4);
+        Rectangle rectangle = new Rectangle(7,9);
 
+        // rectangle.readRectFromConsole();
 
         Calculator count = new Calculator();
 
 
-       Progression pro = new Progression(2,-3);
+        System.out.println(count.getDigit(2030405060,5));
 
 
-        System.out.println(pro.getElement(0));
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
     }

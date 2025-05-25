@@ -34,6 +34,7 @@ public class Rectangle {
     public void drawEmpty(char a) {
         for (int i = 1; i <= Height; i++) {
             if (i == 1 || i == 7) {
+
                 for (int j = 1; j <= Width; j++) {
                     System.out.print(a);
                 }
@@ -63,13 +64,12 @@ public class Rectangle {
 
         System.out.println("please Enter the new Height");
 
-        this.Height= ask.nextInt();
-
-
+        this.Height = ask.nextInt();
 
         System.out.println("Please Enter the new Width");
 
         this.Width = ask.nextInt();
+
 
     }
 
